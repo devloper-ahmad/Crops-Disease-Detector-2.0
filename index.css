@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nimbus Sans L";
+    box-sizing: border-box;
+}
+
+html,
+body {
+
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    /* display: flex; */
+}
+
+
+
+#nav {
+    position: relative;
+    padding: 3vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #dadada;
+
+
+}
+
+#n-left {
+    display: flex;
+    gap: 30px;
+}
+
+#nav a {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav #centertag {
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+    width: 100%;
+    margin-top: 15vw;
+
+    padding: 0vw 10vw;
+    align-items: center;
+}
+
+
+#plant1 {
+
+    width: 10vw;
+
+}
+
+#plant1 p {
+
+    line-height: 1;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin: 10px 0;
+    /* font-weight: 800; */
+    opacity: .5;
+}
+
+#plant1 #plant1wraper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 15vw;
+
+
+}
+
+#plant1wraper img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140%;
+    height: 140%;
+    object-fit: cover;
+}
+
+#homeplant {
+    position: relative;
+    width: 25vw;
+    /* background-color: rgb(220, 203, 203); */
+    min-height: 42vw;
+}
+
+#imgntext {
+    width: fit-content;
+    height: fit-content;
+    /* background-color: red; */
+}
+
+#homeplant #headings {
+    position: absolute;
+    top: -30px;
+    left: -12%;
+}
+
+#homeplant h1 {
+    color: darkslategrey;
+    font-size: 3vw;
+    font-weight: 900;
+    letter-spacing: .3vw;
+}
+
+#homeplant img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#homeplant p {
+    margin-top: 30px;
+    /* position: absolute; */
+    font-size: 1.3vw;
+    width: 40%;
+    /* top: 105%; */
+    letter-spacing: -.07;
+    line-height: 1.3;
+
+}
+
+#visit {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+#circle {
+    height: 3vw;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #5e5e5e;
+}
+
+#circle i {
+    color: #5e5e5e;
+
+}
+
+#visit h3 {
+
+    font-weight: 400;
+    color: #5e5e5e;
+}
+
+#motive {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+    /* margin: 7vw; */
+    font-weight: 100;
+    color: #5e5e5e;
+    font-size: 1vw;
+
+}
+
+#motive p {
+    position: relative;
+    letter-spacing: -.12vw;
+    right: 0;
+    width: 80%;
+    text-align: right;
+    font-size: 2.1vw;
+    /* flex-wrap: wrap;
+ /* display: flex; */
+    line-height: 1.7;
+    margin: 30px;
+    align-items: center;
+}
+
+#motive span {
+
+    display: inline-block;
+    /* width: 50px;
+    height: 30px; */
+    margin: 0 13px;
+    margin-bottom: -10px;
+    /* background-color: red; */
+    border-radius: 100px;
+}
+
+#onespan {
+
+    width: 60px;
+    height: 40px;
+    background-image: url(./images/pinkgreenplant.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
+#twospan {
+
+    width: 60px;
+    height: 30px;
+    background-image: url(./images/Isabion.png);
+    background-size: cover;
+    background-position: 0% 50%;
+}
+
+#threespan {
+    width: 60px;
+    height: 40px;
+    background-image: url(./images/grass.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+#heading{
+    display:flex ;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#heading h1{
+    font-size: 40px;
+    font: 1em sans-serif;
+    font-weight: 900;
+    margin-top: 10%;
+}
+
+#Pictures {
+    justify-content: space-between;
+    display: flex;
+    margin: 8vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+}
+
+#firstpic {
+    width: 17vw;
+}
+
+#firstpic #picimg {
+    width: 100%;
+    height: 20vw;
+    margin-bottom: 1vw;
+
+}
+
+#firstpic h1 {
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+    margin-top: 160%;
+}
+
+#firstpic p {
+    font-size: 1vw;
+    margin-top: 9%;
+    opacity: .8;
+    letter-spacing: -.06vw;
+    flex-wrap: wrap;
+    /* margin-top: 40px; */
+    line-height: 1;
+    width: 60%;
+}
+
+#picimg img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#secondtpic #picimg {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1vw;
+
+}
+
+#secondpic h1 {
+    letter-spacing: -.1vw;
+    font-weight: 100;
+    font-size: 2vw;
+
+}
+
+#secondpic p {
+    font-size: 1vw;
+    margin-top: 10px;
+    opacity: .8;
+    width: 50%;
+    text-align: right;
+    letter-spacing: -.07vw;
+}
+
+#secondpic {
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#banner{
+display: flex;
+align-items: center;
+    width: 100%;
+    margin-top: 8vw;
+}
+
+#bimg{
+    width: 65%;
+    height: 70vh;
+   
+}
+#bimg img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 70%;
+
+}
+
+#btext{
+    width: 35%;
+    padding: 0px 3vw;
+}
+
+#btext h1{
+    font-size: 2.8vw;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: -.15vw;
+    
+}
+#btext p{
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+
+#future{
+position: relative;
+overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+#future video {
+    opacity: .1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+width: 100%;
+/* height: 100%; */
+
+}
+#ftext{
+display: flex;
+flex-direction: column;
+align-items: center;
+    position: relative;
+    z-index: 9999;
+    background-color: white;
+    padding: 1vw 2vw;
+    border-radius: 10px;
+}
+
+#ftext button{
+    text-transform: capitalize;
+    padding: .8vw 1.7vw;
+    font-size: .7vw;
+    /* letter-spacing: -.05; */
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: white;
+    border:1px solid #5e5e5e;
+    color: #5e5e5e;
+    margin-top: 10px;
+
+}
+
+
+
+
+/* 1:37 */
